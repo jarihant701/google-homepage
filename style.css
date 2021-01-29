@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ************** NAVBAR START ****************** */
+#nav{
+    padding: 0px 20px;
+}
+ul{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+li{
+    margin: 20px 10px;
+}
+li a{
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav button{
+    margin: 10px;
+    background-color: #4285F4;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+li img{
+    width: 20px;
+}
+/* ******************* NAVBAR FINISHED ***************** */
