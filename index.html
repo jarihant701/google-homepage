@@ -11,9 +11,14 @@
       rel="stylesheet"
     />
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Colors Used
@@ -24,14 +29,36 @@
       <ul>
         <li><a href="#">Gmail</a></li>
         <li><a href="#">Images</a></li>
-        <li><a href="#">
-            <img src="./icon.svg" alt="google-apps"></a>
+        <li>
+          <a href="#"> <img src="./icon.svg" alt="google-apps" /></a>
         </li>
         <button>Sign In</button>
       </ul>
     </nav>
     <main id="main">
-        
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+        id="google-logo"
+      />
+      <div id="search-bar">
+        <div>
+          <i class="fas fa-search"></i>
+        </div>
+        <div id="search">
+          <input type="text" name="search"  />
+        </div>
+        <div id="voice-search">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/417px-Google_mic.svg.png"
+            alt="" height="100%"
+          />
+        </div>
+      </div>
+      <div>
+          <button id="google-search" class="buttons">Google Search</button>
+          <button id="feeling-lucky" class="buttons">I'm Feeling Lucky</button>
+      </div>
     </main>
     <footer id="footer"></footer>
   </body>

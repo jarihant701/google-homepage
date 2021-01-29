@@ -44,3 +44,62 @@ li img{
     width: 20px;
 }
 /* ******************* NAVBAR FINISHED ***************** */
+
+/* *********************SEARCH BAR START ************************* */
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+#search-bar{
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #cccccc;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+#search-bar:hover{
+    box-shadow: 3px 6px 7px -3px #ccc;
+}
+i{
+    color: #9AA0A6;
+}
+#search{
+    margin: 0px 10px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+#search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#voice-search{
+    height: 80%;
+    cursor: pointer;
+}
+
+.buttons{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+.buttons:hover{
+    box-shadow: 0 1px 1px rgb(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222222;
+}
+/* *********************SEARCH BAR FINISH ************************* */
