@@ -103,3 +103,29 @@ i{
     color: #222222;
 }
 /* *********************SEARCH BAR FINISH ************************* */
+
+/* *********************** FOOTER START ********************** */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 0px 20px;
+    border-top: 1px solid #dadce0;
+}
+#footer li{
+    margin: 10px;
+}
+
+/* *********************** FOOTER Finish ********************** */
+
+@media screen and (max-width: 600px){
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
